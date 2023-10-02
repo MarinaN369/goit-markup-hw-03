@@ -239,8 +239,7 @@ img {
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .our-portfolio-title {
   font-size: 36px;
