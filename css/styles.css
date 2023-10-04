@@ -42,7 +42,11 @@ img {
 }
 .header-navigation {
   display: flex;
-  gap: 76px;
+  align-items: center;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
   align-items: center;
 }
 .header-logo {
@@ -63,7 +67,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
   display: flex;
   gap: 40px;
 }
@@ -78,6 +81,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  text-decoration: none;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -90,6 +94,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
@@ -98,10 +103,7 @@ img {
 .address {
   font-style: normal;
 }
-.address-list {
-  display: flex;
-  gap: 40px;
-}
+
 .hero {
   padding: 188px 0;
   background: #2e2f42;
